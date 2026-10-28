@@ -39,7 +39,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 25,
+      "execution_count": 62,
       "id": "c86c11b4",
       "metadata": {
         "id": "c86c11b4"
@@ -55,7 +55,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 26,
+      "execution_count": 63,
       "id": "ff4ccdc4",
       "metadata": {
         "colab": {
@@ -63,7 +63,7 @@
           "height": 206
         },
         "id": "ff4ccdc4",
-        "outputId": "14e6c0ce-9398-4603-fee2-7dbfbe1985b4"
+        "outputId": "265bdf28-bf03-4e51-d2fe-d7855594ba43"
       },
       "outputs": [
         {
@@ -93,7 +93,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-3fb00fc7-e79c-4a68-b686-79ca1242061d\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-140b361d-a42a-451e-9e72-b4f79577f2af\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -184,7 +184,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3fb00fc7-e79c-4a68-b686-79ca1242061d')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-140b361d-a42a-451e-9e72-b4f79577f2af')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -236,12 +236,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-3fb00fc7-e79c-4a68-b686-79ca1242061d button.colab-df-convert');\n",
+              "        document.querySelector('#df-140b361d-a42a-451e-9e72-b4f79577f2af button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-3fb00fc7-e79c-4a68-b686-79ca1242061d');\n",
+              "        const element = document.querySelector('#df-140b361d-a42a-451e-9e72-b4f79577f2af');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -271,7 +271,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 26
+          "execution_count": 63
         }
       ],
       "source": [
@@ -296,14 +296,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 27,
+      "execution_count": 64,
       "id": "899a7ad0",
       "metadata": {
         "id": "899a7ad0",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "83166b15-c1a9-4fc3-c459-35b88d59c2ad"
+        "outputId": "4637d4f9-87da-4136-e3b0-df11091f65ae"
       },
       "outputs": [
         {
@@ -325,14 +325,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 28,
+      "execution_count": 65,
       "id": "ecd4bf44",
       "metadata": {
         "id": "ecd4bf44",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "4dd24711-feed-4bdd-ae19-2fb4ec92be83"
+        "outputId": "b115d399-deb1-4e84-a2e6-f6de17e56415"
       },
       "outputs": [
         {
@@ -356,14 +356,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 29,
+      "execution_count": 66,
       "id": "4178b07c",
       "metadata": {
         "id": "4178b07c",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "a73c9da0-be7f-4370-cafc-83b32d5f3f77"
+        "outputId": "3b40a49d-bb65-44c6-a16d-c8567708b7b6"
       },
       "outputs": [
         {
@@ -396,14 +396,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 30,
+      "execution_count": 67,
       "id": "b1c3904c",
       "metadata": {
         "id": "b1c3904c",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "26d00360-c2a3-43b1-fbfa-e75a4719a98c"
+        "outputId": "671172bf-2a29-4921-fe5f-8f230fd70049"
       },
       "outputs": [
         {
@@ -430,14 +430,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 31,
+      "execution_count": 68,
       "id": "9af051ba",
       "metadata": {
         "id": "9af051ba",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "cb2874e8-483b-42bf-f689-b17698baa226"
+        "outputId": "b39711dc-3fee-455f-8ff8-421e225a4127"
       },
       "outputs": [
         {
@@ -489,10 +489,10 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "2e112cb3-06d7-447b-cac7-dbc8e01f9306"
+        "outputId": "7082e877-04ad-48bd-864c-c735f56aedd3"
       },
       "id": "AbLLdy-5aGqD",
-      "execution_count": 32,
+      "execution_count": 69,
       "outputs": [
         {
           "output_type": "stream",
@@ -563,10 +563,10 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "YH6O888pfcws",
-        "outputId": "e335bda1-7ca4-41da-d5a4-f272fe4c8eb6"
+        "outputId": "d013893f-c756-45d9-a0c4-fde38711c919"
       },
       "id": "YH6O888pfcws",
-      "execution_count": 33,
+      "execution_count": 70,
       "outputs": [
         {
           "output_type": "stream",
@@ -593,10 +593,10 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "bJw774Q-ffSX",
-        "outputId": "5df9f2d4-f7e0-4272-84cf-2ef31d464574"
+        "outputId": "e16d2f0c-ed2a-4e55-f374-01cc5a17f4b7"
       },
       "id": "bJw774Q-ffSX",
-      "execution_count": 34,
+      "execution_count": 71,
       "outputs": [
         {
           "output_type": "stream",
@@ -652,10 +652,10 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "RG_Xuj6yfk2h",
-        "outputId": "c2fe4f59-7d6d-4b19-bb71-48e5320df5b0"
+        "outputId": "e205fc8d-d410-42f8-8c22-158f41be1f4d"
       },
       "id": "RG_Xuj6yfk2h",
-      "execution_count": 35,
+      "execution_count": 72,
       "outputs": [
         {
           "output_type": "stream",
@@ -686,10 +686,10 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1BJ9C3SffrZ0",
-        "outputId": "5ed40346-0909-4637-dff6-81cdf988af9d"
+        "outputId": "f4efd184-3191-4d44-e14f-7e931b2f1deb"
       },
       "id": "1BJ9C3SffrZ0",
-      "execution_count": 36,
+      "execution_count": 73,
       "outputs": [
         {
           "output_type": "stream",
@@ -744,10 +744,10 @@
           "height": 707
         },
         "id": "CkWhUJM9fwib",
-        "outputId": "5d5d9c7e-bf6c-4244-cf23-97f5453dbd98"
+        "outputId": "ac975042-1632-464d-f6e2-e7a2623b23af"
       },
       "id": "CkWhUJM9fwib",
-      "execution_count": 37,
+      "execution_count": 74,
       "outputs": [
         {
           "output_type": "display_data",
@@ -780,10 +780,10 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "g_pijLsjf8q8",
-        "outputId": "6b5c0a70-56c2-4ba6-fca1-5c5fec36ef39"
+        "outputId": "27dc5a09-38e5-402e-acfa-c71e5a0d3f20"
       },
       "id": "g_pijLsjf8q8",
-      "execution_count": 38,
+      "execution_count": 75,
       "outputs": [
         {
           "output_type": "stream",
@@ -829,10 +829,10 @@
           "height": 507
         },
         "id": "xsT61ARaf_cG",
-        "outputId": "5a6bd0fd-eec2-49de-b7df-79584dd07672"
+        "outputId": "df14497d-8257-4a8d-c1c4-f88e0a199af2"
       },
       "id": "xsT61ARaf_cG",
-      "execution_count": 39,
+      "execution_count": 76,
       "outputs": [
         {
           "output_type": "display_data",
@@ -843,6 +843,1354 @@
             "image/png": "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UtPV7jcAUBEQugEAOnPmjE3A/bs+ffqoY8eOGjp0qPz8/PTwww9rxYoVpQrgN954Y6kGTWvUqJHNc4vFouDg4Ku69++RI0fUpEkTuwwOd+DAAd1///3y9PSUh4eHfHx81L9/f0lSRkbGJV/3559/Kisrq8h6SVKTJk2uua74+HiNGDFCffv21dixY0v0movDvyRrMP7rr78kSb/++qsMw9BLL70kHx8fm8fLL78sSUpLS7vm5UgXAv7TTz8tPz8/ubu7y8fHR/Xr15dU/PtamvWtUqWKevfura+++krZ2dmSpJUrVyo3N9cmdEvShx9+qNDQULm5ual27dry8fHRmjVrLrttLxYcHFzki5zGjRtLUpHf3cL1K/T7779LKvr74OLiogYNGljnX05eXp4eeugh5efna+XKlTYj77ds2VJNmza1+fJh+fLl8vb21p133inpwu/puXPniv2dbNasmQoKCqxjK/z+++8l/n2+2v0GACoCrukGgErujz/+UEZGhoKDgy/Zxt3dXVu3btWmTZu0Zs0arV27VsuXL9edd96p9evXl2iE79Jeh10SlzpKnZ+fb8qo46dOndLtt98uDw8PTZkyRQ0bNpSbm5t+/PFHjR8/3m63cLrcehXnr7/+Uu/evdW4cWO9//77JV7Opd4jwzAkybo+zz777CWPxl/u96aky5Gkhx56SN9//73GjRunVq1aqUaNGiooKFD37t2LvK9Xs74PP/yw3n33XX377bfq1auXVqxYoaZNm6ply5bWNkuWLNGgQYPUq1cvjRs3Tr6+vnJ2dta0adNsBtyzFzP2iXHjxikuLk4bNmywGZytUJ8+ffTKK68oPT1dNWvW1Ndff62+ffuaereC67XfAEBZRegGgEqucGCqK53i7OTkpK5du6pr166aOXOmXn31Vf3zn//Upk2bFBERUerTtK/k8OHDNs8Nw9Cvv/5qcz/xG264ocioztKFI3AXnxrbsGFD7dy5U7m5udd0q6XNmzfrxIkTWrlypbp06WKdnpiYeMXX+vj4yN3dvch6SdKhQ4dsnhceCf77uhV3pLOgoED9+vXTqVOntGHDBlWrVq0kq1Iihe9h1apVFRERYbd+/+6vv/5SbGysJk+erIkTJ1qnF/deXe36dunSRQEBAVq+fLk6deqkjRs36p///KdNm88//1wNGjTQypUrbX6fC4/ql0Th2QEXv/6///2vJNmMNl6coKAgSRd+Hy7+/c3JyVFiYuIVt8Gnn36q2bNna/bs2br99tuLbdOnTx9NnjxZX3zxhfz8/JSZmWkdSE668HtarVq1Ir+T0oVR7J2cnFS3bl1rvSX5fb6W/QYAKgJOLweASmzjxo2aOnWq6tevX+x1mIVOnjxZZFrhSM6Fp+sW3mO4uBB8NT766COb68w///xzJScnq0ePHtZpDRs21I4dO5STk2Odtnr16iK3Fuvdu7fS09P1zjvvFFnOxUdbr6TwiO3Fr8nJybG5bvZyr42MjNSqVauUlJRknZ6QkKB169bZtPXw8JC3t7e2bt1qM7245UyePFnr1q3TJ598UuR05Wvl6+ur8PBwvfvuu0pOTi4y/88//7TLcop7XyVp9uzZRdpe7fo6OTnpwQcf1H/+8x99/PHHysvLK3JqeXF17Ny5U3FxcSVezvHjx/Xll19an2dmZuqjjz5Sq1at5O/vf9nXRkREyMXFRW+99ZZNDQsXLlRGRoaioqIu+dqff/5ZQ4cOVf/+/fX0009fsl2zZs0UEhKi5cuXa/ny5QoICLAJws7OzurWrZu++uorm9PhU1NTtWzZMnXq1EkeHh6SpLvvvls7duzQrl27rO3+/PNPLV261GaZ17LfAEBFwJFuAKgkvv32Wx08eFB5eXlKTU3Vxo0bFRMTo6CgIH399ddyc3O75GunTJmirVu3KioqSkFBQUpLS9O8efNUp04dderUSdKFAOzl5aUFCxaoZs2aql69utq3b3/VQbBWrVrq1KmTBg8erNTUVM2ePVvBwcE2tzUbOnSoPv/8c3Xv3l0PPfSQjhw5oiVLlhS5BdiAAQP00UcfaezYsdq1a5c6d+6ss2fPasOGDXriiSd03333laim2267TTfccIMGDhyop556ShaLRR9//HGJg/vkyZO1du1ade7cWU888YTy8vL09ttvq0WLFtq3b59N26FDh+q1117T0KFD1bZtW23dutV6xLTQ/v37NXXqVHXp0kVpaWk291qXZL1m9lrMnTtXnTp1UkhIiIYNG6YGDRooNTVVcXFx+uOPP/TTTz9d8zI8PDzUpUsXTZ8+Xbm5ubrxxhu1fv36IkdCr3V9+/Tpo7ffflsvv/yyQkJC1KxZM5v599xzj1auXKn7779fUVFRSkxM1IIFC9S8eXOdOXOmROvSuHFjDRkyRLt375afn58++OADpaamatGiRVd8rY+PjyZMmKDJkyere/fu6tmzpw4dOqR58+apXbt2l12/wkEKu3TpUuR9ue2222yOnPfp00cTJ06Um5ubhgwZYjNomyT961//UkxMjDp16qQnnnhCVapU0bvvvqvs7GxNnz7d2u65557Txx9/rO7du+vpp5+23jIsKCjI5vf5WvcbACj3HDJmOgDguim8PVHhw8XFxfD39zfuuusuY86cOTa35Sr091uGxcbGGvfdd58RGBhouLi4GIGBgUbfvn2N//73vzav++qrr4zmzZsbVapUsbnl1e233260aNGi2PoudcuwTz75xJgwYYLh6+truLu7G1FRUTa32io0Y8YM48YbbzRcXV2Njh07Gj/88EORPg3jwi2L/vnPfxr169c3qlatavj7+xsPPvigzW2RVIJbhm3fvt3o0KGD4e7ubgQGBhrPPfec9ZZUmzZtKnYdL7ZlyxajTZs2houLi9GgQQNjwYIFRd7vwnqHDBlieHp6GjVr1jQeeughIy0tzabGwvfqUo9Cl7pl2BtvvFGkvr+/B4ZhGEeOHDEGDBhg+Pv7G1WrVjVuvPFG45577jE+//zzy65raZbzxx9/GPfff7/h5eVleHp6Gv/4xz+M48eP22V9CxUUFBh169Y1JBn/+te/ip3/6quvGkFBQYarq6vRunVrY/Xq1Ve8PVehoKAgIyoqyli3bp0RGhpquLq6Gk2bNjU+++wzm3ZXuo3fO++8YzRt2tSoWrWq4efnZ4wcOdL466+/bNr8vabC25UV9/j7recOHz5snbdt27Zia/jxxx+NyMhIo0aNGka1atWMO+64w/j++++LtNu3b59x++23G25ubsaNN95oTJ061Vi4cKHd9xsAKM8shsHXjAAAFGfhwoUaOnSojh07VuygVMDFbrrpJt18881avXq1o0sBAJQhXNMNAMAlJCcny2KxqFatWo4uBQAAlFNc0w0AwN+kpqbq888/14IFCxQWFmbXEcEBAEDlwpFuAAD+JiEhQePGjVNwcLAWL17s6HIAAEA5xjXdAAAAAACYhCPdAAAAAACYhNANAAAAAIBJGEitBAoKCnT8+HHVrFlTFovF0eUAAAAAABzMMAydPn1agYGBcnK69PFsQncJHD9+XHXr1nV0GQAAAACAMubYsWOqU6fOJecTukug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FkVHR0tin7metm7dqnvvvVeBgYGyWCxatWqVzXzDMDRx4kQFBATI3d1dEREROnz4sE2bkydPql+/fvLw8JCXl5eGDBmiM2fOXMe1qHgut11yc3M1fvx4hYSEqHr16goMDNSAAQN0/Phxmz6K289ee+2167wmFc+V9plBgwYVed+7d+9u04Z9xhxX2jbF/d2xWCx64403rG3Yb8xRks/LJflclpSUpKioKFWrVk2+vr4aN26c8vLyrueqlAqhuwJYvny5xo4dq5dfflk//vijWrZsqcjISKWlpTm6tEply5Ytio6O1o4dOxQTE6Pc3Fx169ZNZ8+etWk3bNgwJScnWx/Tp093UMWVS4sWLWze923btlnnjRkzRv/5z3/02WefacuWLTp+/LgeeOABB1Zbeezevdtmu8TExEiS/vGPf1jbsM9cH2fPnlXLli01d+7cYudPnz5db731lhYsWKCdO3eqevXqioyM1Pnz561t+vXrpwMHDigmJkarV6/W1q1bNXz48Ou1ChXS5bbLuXPn9OOPP+qll17Sjz/+qJUrV+rQoUPq2bNnkbZTpkyx2Y+efPLJ61F+hXalfUaSunfvbvO+f/LJJzbz2WfMcaVtc/E2SU5O1gcffCCLxaLevXvbtGO/sb+SfF6+0uey/Px8RUVFKScnR99//70+/PBDLV68WBMnTnTEKpWMgXLv1ltvNaKjo63P8/PzjcDAQGPatGkOrAppaWmGJGPLli3Wabfffrvx9NNPO66oSurll182WrZsWey8U6dOGVWrVjU+++wz67SEhARDkhEXF3edKkShp59+2mjYsKFRUFBgGAb7jKNIMr788kvr84KCAsPf39944403rNNOnTpluLq6Gp988olhGIbxyy+/GJKM3bt3W9t8++23hsViMf73v/9dt9orsr9vl+Ls2rXLkGT8/vvv1mlBQUHGrFmzzC2ukitu2wwcONC47777Lvka9pnroyT7zX333WfceeedNtPYb66Pv39eLsnnsm+++cZwcnIyUlJSrG3mz59veHh4GNnZ2dd3BUqII93lXE5Ojvbs2aOIiAjrNCcnJ0VERCguLs6BlSEjI0OSVKtWLZvpS5culbe3t26++WZNmDBB586dc0R5lc7hw4cVGBioBg0aqF+/fkpKSpIk7dmzR7m5uTb7UNOmTVWvXj32oessJydHS5Ys0WOP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3NzrvDYlZzEMwzDpIDoAAAAAAJUa13QDAAAAAGASQjcAAAAAACYhdAMAAAAAYBJCNwAAAAAAJiF0AwAAAABgEkI3AAAAAAAmIXQDAAAAAGASQjcAAAAAACYhdAMAUMFYLBatWrXqkvPDw8M1evTo61bPxW666SbNnj3bIcsGAMARCN0AAFxngwYNksVisT5q166t7t27a9++fXbpPzk5WT169LBLX9ebI78QAADADIRuAAAcoHv37kpOTlZycrJiY2NVpUoV3XPPPZd9TW5ubon69vf3l6urqz3KLBHDMJSXl3fdllcSOTk5ji4BAABJhG4AABzC1dVV/v7+8vf3V6tWrfT888/r2LFj+vPPPyVJR48elcVi0fLly3X77bfLzc1NS5cuVUFBgaZMmaI6derI1dVVrVq10tq1a236vtLp5X+3Zs0aeXp6aunSpZKkjz/+WG3btlXNmjXl7++vRx55RGlpadb2mzdvlsVi0bfffqs2bdrI1dVV27Zt05EjR3TffffJz89PNWrUULt27bRhw4bLLvv999+Xl5eXYmNjNWjQIG3ZskVz5syxngVw9OhRSdLPP/+sHj16qEaNGvLz89Ojjz6q9PR0az/h4eEaNWqURo8eLW9vb0VGRkqSZs6cqZCQEFWvXl1169bVE088oTNnzpT4vQEA4FoRugEAcLAzZ85oyZIlCg4OVu3atW3mPf/883r66aeVkJCgyMhIzZkzRzNmzNCbb76pffv2KTIyUj179tThw4evatnLli1T3759tXTpUvXr10/ShSPqU6dO1U8//aRVq1bp6NGjGjRoUJHXPv/883rttdeUkJCg0NBQnTlzRnfffbdiY2O1d+9ede/eXffee6+SkpKKXfb06dP1/PPPa/369eratavmzJmjsLAwDRs2zHoWQN26dXXq1Cndeeedat26tX744QetXbtWqampeuihh2z6+/DDD+Xi4qLt27drwYIFkiQnJye99dZbOnDggD788ENt3LhRzz333FW9VwAAXA2LYRiGo4sAAKAyGTRokJYsWSI3NzdJ0tmzZxUQEKDVq1frlltukXThSHf9+vU1e/ZsPf3009bX3njjjYqOjtYLL7xgnXbrrbeqXbt2mjt3rqQLR7q//PJL9erVq9jlh4eHq1WrVmrUqJH++c9/6quvvtLtt99+yXp/+OEHtWvXTqdPn1aNGjW0efNm3XHHHVq1apXuu+++y67rzTffrBEjRmjUqFGSLgykNnr0aCUnJ+vjjz9WTEyMWrRoUaS2iwdb+9e//qXvvvtO69ats077448/VLduXR06dEiNGzdWeHi4MjMz9eOPP162ns8//1wjRoywOUoOAICZqji6AAAAKqM77rhD8+fPlyT99ddfmjdvnnr06KFdu3YpKCjI2q5t27bWnzMzM3X8+HF17NjRpq+OHTvqp59+KtXyP//8c6WlpWn79u1q166dzbw9e/Zo0qRJ+umnn/TXX3+poKBAkpSUlKTmzZsXW5t04Yj9pEmTtGbNGiUnJysvL09ZWVlFjnTPmDFDZ8+e1Q8//KAGDRpcsdaffvpJmzZtUo0aNYrMO3LkiBo3bixJatOmTZH5GzZs0LRp03Tw4EFlZmYqLy9P58+f17lz51StWrUrLhsAgGvF6eUAADhA9erVFRwcrODgYLVr107vv/++zp49q3//+99F2pmhdevW8vHx0QcffKCLT3o7e/asIiMj5eHhoaVLl2r37t368ssvJRUdnOzvtT377LP68ssv9eqrr+q7775TfHy8QkJCiryuc+fOys/P14oVK0pU65kzZ3TvvfcqPj7e5nH48GF16dLlkvUcPXpU99xzj0JDQ/XFF19oz5491rMBGGgNAHC9cKQbAIAywGKxyMnJSVlZWZds4+HhocDAQG3fvt3mdPDt27fr1ltvLdXyGjZsqBkzZig8PFzOzs565513JEkHDx7UiRMn9Nprr6lu3bqSLpxeXhLbt2/XoEGDdP/990u6EJYLB0K72K233qpRo0ape/fuqlKlip599lnrPBcXF+Xn59u0v+WWW/TFF1/opptuUpUqJf/osmfPHhUUFGjGjBlycrpwnKGkQR8AAHvhSDcAAA6QnZ2tlJQUpaSkKCEhQU8++aT1iO7ljBs3Tq+//rqWL1+uQ4cO6fnnn1d8fLzNdd8l1bhxY23atElffPGF9d7Y9erVk4uLi95++2399ttv+vrrrzV16tQS9deoUSOtXLlS8fHx+umnn/TII49YT03/u9tuu03ffPONJk+ebHP99k033aSdO3fq6NGjSk9PV0FBgaKjo3Xy5En17dtXu3fv1pEjR7Ru3ToNHjy4SEC/WHBwsHJzc63r8vHHH1sHWAMA4HohdAMA4ABr165VQECAAgIC1L59e+3evVufffaZwsPDL/u6p556SmPHjtUzzzyjkJAQrV27Vl9//bUaNWp0VXU0adJEGzdu1CeffKJnnnlGPj4+Wrx4sT777DM1b95cr732mt58880S9TVz5kzdcMMNuu2223TvvfcqMjLSOjBccTp16qQ1a9boxRdf1Ntvvy3pwinqzs7Oat68uXx8fJSUlGQ9up+fn69u3bopJCREo0ePlpeXl/UIdnFatmypmTNn6vXXX9fNN9+spUuXatq0aaV7gwAAuEaMXg4AQAWSnZ0tNzc3xcTEKCIiwtHlAABQ6XFNNwAAFURmZqZWrlwpJycnNW3a1NHlAAAAEboBAKgwXn75ZS1btkyvv/666tSp4+hyAACAOL0cAAAAAADTMJAaAAAAAAAmIXQDAAAAAGASQjcAAAAAACYhdAMAAAAAYBJCNwAAAAAAJiF0AwAAAABgEkI3AAAAAAAmIXQDAAAAAGASQjcAAAAAACb5f/QFgWNpL9b+AAAAAElFTkSuQmCC\n"
           },
           "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"Dimenzije:\", df.shape)\n",
+        "\n",
+        "print(\"\\nNedostajuce vrednosti:\")\n",
+        "print(df.isnull().sum())\n",
+        "\n",
+        "print(\"\\nBroj kategorija:\")\n",
+        "print(df[\"Category Label\"].nunique())\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "ONgB_WHaggbt",
+        "outputId": "687e16fe-0e4f-4a94-fe3f-31a260f57fc2"
+      },
+      "id": "ONgB_WHaggbt",
+      "execution_count": 77,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Dimenzije: (35311, 9)\n",
+            "\n",
+            "Nedostajuce vrednosti:\n",
+            "product ID           0\n",
+            "Product Title      172\n",
+            "Merchant ID          0\n",
+            "Category Label      44\n",
+            "_Product Code       95\n",
+            "Number_of_Views     14\n",
+            "Merchant Rating    170\n",
+            "Listing Date        59\n",
+            "title_length         0\n",
+            "dtype: int64\n",
+            "\n",
+            "Broj kategorija:\n",
+            "13\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "# 3. Data Cleaning\n",
+        "\n",
+        "U ovoj fazi pripremamo podatke za treniranje ML modela.\n",
+        "\n",
+        "Postupak:\n",
+        "1. Izdvajanje relevantnih kolona\n",
+        "2. Uklanjanje nedostajucih vrednosti\n",
+        "3. Uklanjanje praznih naziva\n",
+        "4. Standardizacija teksta\n",
+        "5. Provera duplikata i konfliktnih kategorija\n",
+        "\n",
+        "Za klasifikaciju koristimo Product Title kao ulaznu\n",
+        "promenljivu (X), a Category Label kao ciljnu promenljivu (y).\n"
+      ],
+      "metadata": {
+        "id": "0OcjgEwQlESz"
+      },
+      "id": "0OcjgEwQlESz"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Kreiramo kopiju originalnog skupa podataka\n",
+        "df_clean = df.copy()\n",
+        "\n",
+        "# Zadrzavamo samo kolone potrebne za model\n",
+        "df_clean = df_clean[\n",
+        "    [\"Product Title\", \"Category Label\"]\n",
+        "]\n",
+        "\n",
+        "print(df_clean.shape)\n",
+        "df_clean.head()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 224
+        },
+        "id": "B7ayCr7_lHJ8",
+        "outputId": "adfaebe9-1ea4-439e-f8ab-479f232a9ee3"
+      },
+      "id": "B7ayCr7_lHJ8",
+      "execution_count": 78,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(35311, 2)\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "                                       Product Title Category Label\n",
+              "0                    apple iphone 8 plus 64gb silver  Mobile Phones\n",
+              "1                apple iphone 8 plus 64 gb spacegrau  Mobile Phones\n",
+              "2  apple mq8n2b/a iphone 8 plus 64gb 5.5 12mp sim...  Mobile Phones\n",
+              "3                apple iphone 8 plus 64gb space grey  Mobile Phones\n",
+              "4  apple iphone 8 plus gold 5.5 64gb 4g unlocked ...  Mobile Phones"
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-13d3552a-e5e6-4a91-9468-18f5d681f837\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Product Title</th>\n",
+              "      <th>Category Label</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>apple iphone 8 plus 64gb silver</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>apple iphone 8 plus 64 gb spacegrau</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>apple mq8n2b/a iphone 8 plus 64gb 5.5 12mp sim...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>apple iphone 8 plus 64gb space grey</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>apple iphone 8 plus gold 5.5 64gb 4g unlocked ...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-13d3552a-e5e6-4a91-9468-18f5d681f837')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-13d3552a-e5e6-4a91-9468-18f5d681f837 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-13d3552a-e5e6-4a91-9468-18f5d681f837');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "df_clean",
+              "summary": "{\n  \"name\": \"df_clean\",\n  \"rows\": 35311,\n  \"fields\": [\n    {\n      \"column\": \"Product Title\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 30860,\n        \"samples\": [\n          \"hotpoint sial11010p dishwasher aquarius slimline 10 place a rated white\",\n          \"iceking rz82ap 50cm wide under counter freezer\",\n          \"indesit si81qwd fridge white\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Category Label\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 13,\n        \"samples\": [\n          \"Fridges\",\n          \"Freezers\",\n          \"Mobile Phones\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 78
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Broj redova pre ciscenja\n",
+        "print(\"Pre ciscenja:\", len(df_clean))\n",
+        "\n",
+        "# Uklanjanje redova bez naziva ili kategorije\n",
+        "df_clean = df_clean.dropna(\n",
+        "    subset=[\"Product Title\", \"Category Label\"]\n",
+        ").copy()\n",
+        "\n",
+        "# Broj redova nakon ciscenja\n",
+        "print(\"Posle ciscenja:\", len(df_clean))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3K7goa7WlJoG",
+        "outputId": "86729a08-e481-476f-b3fe-9439b707450e"
+      },
+      "id": "3K7goa7WlJoG",
+      "execution_count": 79,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Pre ciscenja: 35311\n",
+            "Posle ciscenja: 35096\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Pretvaranje naziva proizvoda u mala slova\n",
+        "df_clean[\"Product Title\"] = (\n",
+        "    df_clean[\"Product Title\"]\n",
+        "    .astype(str)\n",
+        "    .str.lower()\n",
+        "    .str.strip()\n",
+        "    .str.replace(r\"\\s+\", \" \", regex=True)\n",
+        ")\n",
+        "\n",
+        "# Uklanjanje suvisnih razmaka iz kategorija\n",
+        "df_clean[\"Category Label\"] = (\n",
+        "    df_clean[\"Category Label\"]\n",
+        "    .astype(str)\n",
+        "    .str.strip()\n",
+        ")\n",
+        "\n",
+        "# Uklanjanje praznih naziva i kategorija\n",
+        "df_clean = df_clean[\n",
+        "    (df_clean[\"Product Title\"] != \"\") &\n",
+        "    (df_clean[\"Category Label\"] != \"\")\n",
+        "].copy()\n",
+        "\n",
+        "df_clean.head()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 206
+        },
+        "id": "CjE3NpbDlOkx",
+        "outputId": "81c3d01b-d962-43ff-ede8-3671521cf69a"
+      },
+      "id": "CjE3NpbDlOkx",
+      "execution_count": 80,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "                                       Product Title Category Label\n",
+              "0                    apple iphone 8 plus 64gb silver  Mobile Phones\n",
+              "1                apple iphone 8 plus 64 gb spacegrau  Mobile Phones\n",
+              "2  apple mq8n2b/a iphone 8 plus 64gb 5.5 12mp sim...  Mobile Phones\n",
+              "3                apple iphone 8 plus 64gb space grey  Mobile Phones\n",
+              "4  apple iphone 8 plus gold 5.5 64gb 4g unlocked ...  Mobile Phones"
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-dfbd042d-cc90-4c50-8f0a-ef13eb4e4504\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Product Title</th>\n",
+              "      <th>Category Label</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>apple iphone 8 plus 64gb silver</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>apple iphone 8 plus 64 gb spacegrau</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>apple mq8n2b/a iphone 8 plus 64gb 5.5 12mp sim...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>apple iphone 8 plus 64gb space grey</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>apple iphone 8 plus gold 5.5 64gb 4g unlocked ...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-dfbd042d-cc90-4c50-8f0a-ef13eb4e4504')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-dfbd042d-cc90-4c50-8f0a-ef13eb4e4504 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-dfbd042d-cc90-4c50-8f0a-ef13eb4e4504');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "df_clean",
+              "summary": "{\n  \"name\": \"df_clean\",\n  \"rows\": 35096,\n  \"fields\": [\n    {\n      \"column\": \"Product Title\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 30824,\n        \"samples\": [\n          \"samsung a510f a5 16 gb sim free smartphone pink/gold\",\n          \"samsung ue75nu7100 75 ultra hd certified hdr smart 4k tv\",\n          \"wiko view xl 14 98 cm 5 9 zoll smartphone\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Category Label\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 13,\n        \"samples\": [\n          \"Fridges\",\n          \"Freezers\",\n          \"Mobile Phones\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 80
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Broj potpuno istih parova naziv-kategorija\n",
+        "print(\n",
+        "    \"Duplirani parovi:\",\n",
+        "    df_clean.duplicated().sum()\n",
+        ")\n",
+        "\n",
+        "# Broj naziva sa vise razlicitih kategorija\n",
+        "conflicts = (\n",
+        "    df_clean.groupby(\"Product Title\")[\"Category Label\"]\n",
+        "    .nunique()\n",
+        ")\n",
+        "\n",
+        "conflicting_titles = conflicts[conflicts > 1]\n",
+        "\n",
+        "print(\n",
+        "    \"Nazivi sa konfliktnim kategorijama:\",\n",
+        "    len(conflicting_titles)\n",
+        ")\n",
+        "\n",
+        "# Prikaz primera konfliktnih naziva\n",
+        "df_clean[\n",
+        "    df_clean[\"Product Title\"].isin(\n",
+        "        conflicting_titles.index\n",
+        "    )\n",
+        "].sort_values(\"Product Title\").head(20)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 711
+        },
+        "id": "Dfxm6KJRln0Y",
+        "outputId": "84d4148e-9c2f-4fb8-8aed-20c4cae2f545"
+      },
+      "id": "Dfxm6KJRln0Y",
+      "execution_count": 81,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Duplirani parovi: 4210\n",
+            "Nazivi sa konfliktnim kategorijama: 62\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "                                           Product Title    Category Label\n",
+              "8101   amd ad9800ahabbox cpu cooler amd socket a12 98...              CPUs\n",
+              "8099   amd ad9800ahabbox cpu cooler amd socket a12 98...               CPU\n",
+              "33365        amica uc1503 60cm built under larder fridge           Fridges\n",
+              "33368        amica uc1503 60cm built under larder fridge            fridge\n",
+              "33366        amica uc1503 60cm built under larder fridge           Fridges\n",
+              "1141   archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...     Mobile Phones\n",
+              "1145   archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...      Mobile Phone\n",
+              "35196                    blomberg kgm9550 fridge freezer           Fridges\n",
+              "31700                    blomberg kgm9550 fridge freezer   Fridge Freezers\n",
+              "32101                                  blomberg tsm1551p           Fridges\n",
+              "34222                                  blomberg tsm1551p            fridge\n",
+              "31833  bosch kil42vs30g series 4 built in single door...           Fridges\n",
+              "31831  bosch kil42vs30g series 4 built in single door...            fridge\n",
+              "31869  bosch kir21vf30g series 4 built in single door...            fridge\n",
+              "31870  bosch kir21vf30g series 4 built in single door...           Fridges\n",
+              "32803  bosch kir41ad30g serie 6 built in single door ...            fridge\n",
+              "32799  bosch kir41ad30g serie 6 built in single door ...           Fridges\n",
+              "31728    bosch kur15a50gb integrated undercounter fridge           Fridges\n",
+              "23671    bosch kur15a50gb integrated undercounter fridge  Washing Machines\n",
+              "32241  bosch serie 6 free standing refrigerator in white           Fridges"
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-0733bca4-9b27-4d5a-ace6-6e1d23465c06\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Product Title</th>\n",
+              "      <th>Category Label</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>8101</th>\n",
+              "      <td>amd ad9800ahabbox cpu cooler amd socket a12 98...</td>\n",
+              "      <td>CPUs</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8099</th>\n",
+              "      <td>amd ad9800ahabbox cpu cooler amd socket a12 98...</td>\n",
+              "      <td>CPU</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>33365</th>\n",
+              "      <td>amica uc1503 60cm built under larder fridge</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>33368</th>\n",
+              "      <td>amica uc1503 60cm built under larder fridge</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>33366</th>\n",
+              "      <td>amica uc1503 60cm built under larder fridge</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1141</th>\n",
+              "      <td>archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1145</th>\n",
+              "      <td>archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...</td>\n",
+              "      <td>Mobile Phone</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>35196</th>\n",
+              "      <td>blomberg kgm9550 fridge freezer</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31700</th>\n",
+              "      <td>blomberg kgm9550 fridge freezer</td>\n",
+              "      <td>Fridge Freezers</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32101</th>\n",
+              "      <td>blomberg tsm1551p</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>34222</th>\n",
+              "      <td>blomberg tsm1551p</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31833</th>\n",
+              "      <td>bosch kil42vs30g series 4 built in single door...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31831</th>\n",
+              "      <td>bosch kil42vs30g series 4 built in single door...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31869</th>\n",
+              "      <td>bosch kir21vf30g series 4 built in single door...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31870</th>\n",
+              "      <td>bosch kir21vf30g series 4 built in single door...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32803</th>\n",
+              "      <td>bosch kir41ad30g serie 6 built in single door ...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32799</th>\n",
+              "      <td>bosch kir41ad30g serie 6 built in single door ...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31728</th>\n",
+              "      <td>bosch kur15a50gb integrated undercounter fridge</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>23671</th>\n",
+              "      <td>bosch kur15a50gb integrated undercounter fridge</td>\n",
+              "      <td>Washing Machines</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32241</th>\n",
+              "      <td>bosch serie 6 free standing refrigerator in white</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0733bca4-9b27-4d5a-ace6-6e1d23465c06')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-0733bca4-9b27-4d5a-ace6-6e1d23465c06 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-0733bca4-9b27-4d5a-ace6-6e1d23465c06');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "summary": "{\n  \"name\": \"]\",\n  \"rows\": 20,\n  \"fields\": [\n    {\n      \"column\": \"Product Title\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 10,\n        \"samples\": [\n          \"bosch kur15a50gb integrated undercounter fridge\",\n          \"amica uc1503 60cm built under larder fridge\",\n          \"bosch kil42vs30g series 4 built in single door fridge white\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Category Label\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 8,\n        \"samples\": [\n          \"CPU\",\n          \"Mobile Phone\",\n          \"CPUs\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 81
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "### Zakljucci Data Cleaning faze\n",
+        "\n",
+        "Originalni skup podataka sadrzi 35.311 proizvoda\n",
+        "rasporedjenih u 13 kategorija.\n",
+        "\n",
+        "Analizom nedostajucih vrednosti utvrdjeno je:\n",
+        "- 172 nedostajuce vrednosti u Product Title\n",
+        "- 44 nedostajuce vrednosti u Category Label\n",
+        "\n",
+        "Za modelovanje su izdvojene samo dve relevantne kolone:\n",
+        "Product Title i Category Label.\n",
+        "\n",
+        "Redovi sa nedostajucim ili praznim nazivom ili kategorijom\n",
+        "uklonjeni su iz skupa za treniranje.\n",
+        "\n",
+        "Nazivi proizvoda standardizovani su pretvaranjem u mala\n",
+        "slova i uklanjanjem suvisnih razmaka.\n",
+        "\n",
+        "Brojevi i oznake modela su sacuvani jer mogu sadrzati\n",
+        "korisne informacije za klasifikaciju.\n",
+        "\n",
+        "Pre daljeg modelovanja proveravaju se ponovljeni nazivi\n",
+        "i eventualno konfliktne kategorije.\n"
+      ],
+      "metadata": {
+        "id": "o2oEfvx2lquC"
+      },
+      "id": "o2oEfvx2lquC"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "print(\"Broj proizvoda nakon ciscenja:\", len(df_clean))\n",
+        "\n",
+        "print(\n",
+        "    \"Broj dupliranih parova:\",\n",
+        "    df_clean.duplicated().sum()\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Broj naziva sa konfliktnim kategorijama:\",\n",
+        "    len(conflicting_titles)\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Broj kategorija:\",\n",
+        "    df_clean[\"Category Label\"].nunique()\n",
+        ")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uNamIGyplvJW",
+        "outputId": "2aeba391-a78d-462f-ff78-d9eb0b0366dd"
+      },
+      "id": "uNamIGyplvJW",
+      "execution_count": 82,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Broj proizvoda nakon ciscenja: 35096\n",
+            "Broj dupliranih parova: 4210\n",
+            "Broj naziva sa konfliktnim kategorijama: 62\n",
+            "Broj kategorija: 13\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Uklanjanje potpuno identicnih parova\n",
+        "# Product Title + Category Label\n",
+        "\n",
+        "print(\"Pre uklanjanja:\", len(df_clean))\n",
+        "\n",
+        "df_clean = df_clean.drop_duplicates(\n",
+        "    subset=[\"Product Title\", \"Category Label\"]\n",
+        ").copy()\n",
+        "\n",
+        "print(\"Nakon uklanjanja:\", len(df_clean))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MNgeIi7mmC8H",
+        "outputId": "e12f160f-2746-4b77-8fe8-80154138b4a5"
+      },
+      "id": "MNgeIi7mmC8H",
+      "execution_count": 83,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Pre uklanjanja: 35096\n",
+            "Nakon uklanjanja: 30886\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Pronalazenje konfliktnih naziva\n",
+        "\n",
+        "conflicts = (\n",
+        "    df_clean.groupby(\"Product Title\")[\"Category Label\"]\n",
+        "    .nunique()\n",
+        ")\n",
+        "\n",
+        "conflicting_titles = conflicts[conflicts > 1]\n",
+        "\n",
+        "# Prikaz konfliktnih proizvoda\n",
+        "conflict_examples = df_clean[\n",
+        "    df_clean[\"Product Title\"].isin(\n",
+        "        conflicting_titles.index\n",
+        "    )\n",
+        "].sort_values(\"Product Title\")\n",
+        "\n",
+        "print(\"Broj konfliktnih naziva:\", len(conflicting_titles))\n",
+        "\n",
+        "display(conflict_examples.head(20))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 694
+        },
+        "id": "LIXV2M0ymHKE",
+        "outputId": "8f74f620-ba6a-487d-ddbf-ff97457df3ba"
+      },
+      "id": "LIXV2M0ymHKE",
+      "execution_count": 84,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Broj konfliktnih naziva: 62\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "                                           Product Title    Category Label\n",
+              "8101   amd ad9800ahabbox cpu cooler amd socket a12 98...              CPUs\n",
+              "8099   amd ad9800ahabbox cpu cooler amd socket a12 98...               CPU\n",
+              "33365        amica uc1503 60cm built under larder fridge           Fridges\n",
+              "33368        amica uc1503 60cm built under larder fridge            fridge\n",
+              "1141   archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...     Mobile Phones\n",
+              "1145   archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...      Mobile Phone\n",
+              "35196                    blomberg kgm9550 fridge freezer           Fridges\n",
+              "31700                    blomberg kgm9550 fridge freezer   Fridge Freezers\n",
+              "32101                                  blomberg tsm1551p           Fridges\n",
+              "34222                                  blomberg tsm1551p            fridge\n",
+              "31833  bosch kil42vs30g series 4 built in single door...           Fridges\n",
+              "31831  bosch kil42vs30g series 4 built in single door...            fridge\n",
+              "31869  bosch kir21vf30g series 4 built in single door...            fridge\n",
+              "31870  bosch kir21vf30g series 4 built in single door...           Fridges\n",
+              "32803  bosch kir41ad30g serie 6 built in single door ...            fridge\n",
+              "32799  bosch kir41ad30g serie 6 built in single door ...           Fridges\n",
+              "31728    bosch kur15a50gb integrated undercounter fridge           Fridges\n",
+              "23671    bosch kur15a50gb integrated undercounter fridge  Washing Machines\n",
+              "32241  bosch serie 6 free standing refrigerator in white           Fridges\n",
+              "32063  bosch serie 6 free standing refrigerator in white            fridge"
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-b8ec8f63-8fcf-4da0-81f6-9571b3f48aa0\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Product Title</th>\n",
+              "      <th>Category Label</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>8101</th>\n",
+              "      <td>amd ad9800ahabbox cpu cooler amd socket a12 98...</td>\n",
+              "      <td>CPUs</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>8099</th>\n",
+              "      <td>amd ad9800ahabbox cpu cooler amd socket a12 98...</td>\n",
+              "      <td>CPU</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>33365</th>\n",
+              "      <td>amica uc1503 60cm built under larder fridge</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>33368</th>\n",
+              "      <td>amica uc1503 60cm built under larder fridge</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1141</th>\n",
+              "      <td>archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...</td>\n",
+              "      <td>Mobile Phones</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1145</th>\n",
+              "      <td>archos diamond gamma 5.5 dual sim 4g 3gb 32gb ...</td>\n",
+              "      <td>Mobile Phone</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>35196</th>\n",
+              "      <td>blomberg kgm9550 fridge freezer</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31700</th>\n",
+              "      <td>blomberg kgm9550 fridge freezer</td>\n",
+              "      <td>Fridge Freezers</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32101</th>\n",
+              "      <td>blomberg tsm1551p</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>34222</th>\n",
+              "      <td>blomberg tsm1551p</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31833</th>\n",
+              "      <td>bosch kil42vs30g series 4 built in single door...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31831</th>\n",
+              "      <td>bosch kil42vs30g series 4 built in single door...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31869</th>\n",
+              "      <td>bosch kir21vf30g series 4 built in single door...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31870</th>\n",
+              "      <td>bosch kir21vf30g series 4 built in single door...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32803</th>\n",
+              "      <td>bosch kir41ad30g serie 6 built in single door ...</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32799</th>\n",
+              "      <td>bosch kir41ad30g serie 6 built in single door ...</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>31728</th>\n",
+              "      <td>bosch kur15a50gb integrated undercounter fridge</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>23671</th>\n",
+              "      <td>bosch kur15a50gb integrated undercounter fridge</td>\n",
+              "      <td>Washing Machines</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32241</th>\n",
+              "      <td>bosch serie 6 free standing refrigerator in white</td>\n",
+              "      <td>Fridges</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>32063</th>\n",
+              "      <td>bosch serie 6 free standing refrigerator in white</td>\n",
+              "      <td>fridge</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b8ec8f63-8fcf-4da0-81f6-9571b3f48aa0')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-b8ec8f63-8fcf-4da0-81f6-9571b3f48aa0 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-b8ec8f63-8fcf-4da0-81f6-9571b3f48aa0');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "summary": "{\n  \"name\": \"display(conflict_examples\",\n  \"rows\": 20,\n  \"fields\": [\n    {\n      \"column\": \"Product Title\",\n      \"properties\": {\n        \"dtype\": \"string\",\n        \"num_unique_values\": 10,\n        \"samples\": [\n          \"bosch kur15a50gb integrated undercounter fridge\",\n          \"amica uc1503 60cm built under larder fridge\",\n          \"bosch kil42vs30g series 4 built in single door fridge white\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Category Label\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 8,\n        \"samples\": [\n          \"CPU\",\n          \"Mobile Phone\",\n          \"CPUs\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Uklanjanje svih naziva sa konfliktnim kategorijama\n",
+        "\n",
+        "print(\"Pre uklanjanja konflikata:\", len(df_clean))\n",
+        "\n",
+        "df_clean = df_clean[\n",
+        "    ~df_clean[\"Product Title\"].isin(\n",
+        "        conflicting_titles.index\n",
+        "    )\n",
+        "].copy()\n",
+        "\n",
+        "print(\"Nakon uklanjanja konflikata:\", len(df_clean))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AXWOkc4OmL_A",
+        "outputId": "11fdf748-435e-4503-a975-ef755addd1da"
+      },
+      "id": "AXWOkc4OmL_A",
+      "execution_count": 85,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Pre uklanjanja konflikata: 30886\n",
+            "Nakon uklanjanja konflikata: 30762\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Zavrsna provera\n",
+        "\n",
+        "print(\"Ukupan broj proizvoda:\", len(df_clean))\n",
+        "\n",
+        "print(\n",
+        "    \"Broj kategorija:\",\n",
+        "    df_clean[\"Category Label\"].nunique()\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Duplikati:\",\n",
+        "    df_clean.duplicated().sum()\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Duplirani nazivi:\",\n",
+        "    df_clean[\"Product Title\"].duplicated().sum()\n",
+        ")\n",
+        "\n",
+        "print(\n",
+        "    \"Nedostajuce vrednosti:\"\n",
+        ")\n",
+        "\n",
+        "print(df_clean.isnull().sum())\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "swmJ8L95mQMm",
+        "outputId": "96b1bde8-c6fc-4066-8c25-8f1864833965"
+      },
+      "id": "swmJ8L95mQMm",
+      "execution_count": 86,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ukupan broj proizvoda: 30762\n",
+            "Broj kategorija: 13\n",
+            "Duplikati: 0\n",
+            "Duplirani nazivi: 0\n",
+            "Nedostajuce vrednosti:\n",
+            "Product Title     0\n",
+            "Category Label    0\n",
+            "dtype: int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "## Obrada duplikata i konfliktnih kategorija\n",
+        "\n",
+        "Nakon osnovnog ciscenja podataka ostalo je 35.096\n",
+        "proizvoda rasporedjenih u 13 kategorija.\n",
+        "\n",
+        "Identifikovano je:\n",
+        "- 4.210 dupliranih parova naziv-kategorija\n",
+        "- 62 naziva sa konfliktnim kategorijama\n",
+        "\n",
+        "Identicni parovi su uklonjeni kako bi se smanjilo\n",
+        "ponavljanje istih primera.\n",
+        "\n",
+        "Nazivi sa konfliktnim kategorijama iskljuceni su iz\n",
+        "modelovanja jer nije moguce pouzdano odrediti tacnu\n",
+        "kategoriju bez dodatne provere.\n",
+        "\n",
+        "Ovakav pristup omogucava konzistentnije oznake\n",
+        "i smanjuje rizik od curenja podataka tokom evaluacije.\n",
+        "\n",
+        "Ogranicenje:\n",
+        "Uklanjanje konfliktnih primera moze smanjiti\n",
+        "raznovrsnost skupa podataka. U produkcionom sistemu\n",
+        "bila bi preporucljiva rucna provera ovih slucajeva.\n"
+      ],
+      "metadata": {
+        "id": "fUo-2g9ImTfn"
+      },
+      "id": "fUo-2g9ImTfn"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Cuvanje ociscenog skupa podataka\n",
+        "\n",
+        "df_clean.to_csv(\n",
+        "    \"/content/products_clean.csv\",\n",
+        "    index=False\n",
+        ")\n",
+        "\n",
+        "print(\"Ocisceni podaci su sacuvani!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cSVcdP3WmYFe",
+        "outputId": "11afb1a2-12e4-4c29-cd33-b73d30b3c55c"
+      },
+      "id": "cSVcdP3WmYFe",
+      "execution_count": 87,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ocisceni podaci su sacuvani!\n"
+          ]
         }
       ]
     }
