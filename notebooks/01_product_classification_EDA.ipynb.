@@ -50,7 +50,9 @@
         "import pandas as pd\n",
         "import numpy as np\n",
         "import matplotlib.pyplot as plt\n",
-        "import seaborn as sns"
+        "import seaborn as sns\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn.feature_extraction.text import TfidfVectorize"
       ]
     },
     {
@@ -2176,23 +2178,189 @@
         "print(\"Ocisceni podaci su sacuvani!\")\n"
       ],
       "metadata": {
+        "id": "cSVcdP3WmYFe"
+      },
+      "id": "cSVcdP3WmYFe",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Broj proizvoda:\", len(df_clean))\n",
+        "print(\"Broj kategorija:\", df_clean[\"Category Label\"].nunique())\n",
+        "print(\"Duplirani nazivi:\", df_clean[\"Product Title\"].duplicated().sum())\n",
+        "print(\"Nedostajuce vrednosti:\", df_clean.isnull().sum().sum())"
+      ],
+      "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "cSVcdP3WmYFe",
-        "outputId": "11afb1a2-12e4-4c29-cd33-b73d30b3c55c"
+        "id": "9vWn6v9vmv2i",
+        "outputId": "da7693f1-b022-4316-ec49-b02efd4ee68e"
       },
-      "id": "cSVcdP3WmYFe",
-      "execution_count": 87,
+      "id": "9vWn6v9vmv2i",
+      "execution_count": 88,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Ocisceni podaci su sacuvani!\n"
+            "Broj proizvoda: 30762\n",
+            "Broj kategorija: 13\n",
+            "Duplirani nazivi: 0\n",
+            "Nedostajuce vrednosti: 0\n"
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "# 4. Feature Engineering and Data Preparation\n",
+        "\n",
+        "U ovoj fazi pripremamo podatke za treniranje\n",
+        "modela masinskog ucenja.\n",
+        "\n",
+        "Koristimo:\n",
+        "- Product Title kao ulaznu promenljivu (X)\n",
+        "- Category Label kao ciljnu promenljivu (y)\n",
+        "\n",
+        "Podatke delimo na trening i test skup.\n",
+        "\n",
+        "Za pretvaranje teksta u numericke karakteristike\n",
+        "koristicemo TF-IDF vektorizaciju.\n"
+      ],
+      "metadata": {
+        "id": "ieoHPjdOm4Ry"
+      },
+      "id": "ieoHPjdOm4Ry"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ulazni podaci - nazivi proizvoda\n",
+        "X = df_clean[\"Product Title\"]\n",
+        "\n",
+        "# Ciljna promenljiva - kategorije\n",
+        "y = df_clean[\"Category Label\"]\n",
+        "\n",
+        "print(\"Broj proizvoda:\", len(X))\n",
+        "print(\"Broj kategorija:\", y.nunique())"
+      ],
+      "metadata": {
+        "id": "vlgy91_2m7ZK"
+      },
+      "id": "vlgy91_2m7ZK",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Podela podataka na trening i test skup\n",
+        "X_train, X_test, y_train, y_test = train_test_split(\n",
+        "    X,\n",
+        "    y,\n",
+        "    test_size=0.2,\n",
+        "    random_state=42,\n",
+        "    stratify=y\n",
+        ")\n",
+        "\n",
+        "print(\"Trening proizvodi:\", len(X_train))\n",
+        "print(\"Test proizvodi:\", len(X_test))"
+      ],
+      "metadata": {
+        "id": "krTFZzvAoVrt"
+      },
+      "id": "krTFZzvAoVrt",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Kreiranje TF-IDF vektorizatora\n",
+        "tfidf = TfidfVectorizer(\n",
+        "    max_features=10000,\n",
+        "    ngram_range=(1, 2),\n",
+        "    min_df=2,\n",
+        "    sublinear_tf=True\n",
+        ")\n",
+        "\n",
+        "# Ucenje recnika samo na trening podacima\n",
+        "X_train_tfidf = tfidf.fit_transform(X_train)\n",
+        "\n",
+        "# Transformacija test podataka\n",
+        "X_test_tfidf = tfidf.transform(X_test)\n",
+        "\n",
+        "print(\"Trening matrica:\", X_train_tfidf.shape)\n",
+        "print(\"Test matrica:\", X_test_tfidf.shape)\n"
+      ],
+      "metadata": {
+        "id": "el8XImA3oqK0"
+      },
+      "id": "el8XImA3oqK0",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Prikaz prvih 30 karakteristika\n",
+        "\n",
+        "feature_names = tfidf.get_feature_names_out()\n",
+        "\n",
+        "print(\"Broj karakteristika:\", len(feature_names))\n",
+        "\n",
+        "print(\"\\nPrvih 30 karakteristika:\")\n",
+        "print(feature_names[:30])\n"
+      ],
+      "metadata": {
+        "id": "ZSuR4mUgouXV"
+      },
+      "id": "ZSuR4mUgouXV",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "### Feature Engineering - TF-IDF\n",
+        "\n",
+        "Nakon ciscenja podataka dobijeno je 30.762\n",
+        "jedinstvenih naziva proizvoda iz 13 kategorija.\n",
+        "\n",
+        "Podaci su podeljeni na:\n",
+        "- 80% trening podataka\n",
+        "- 20% test podataka\n",
+        "\n",
+        "Koriscena je stratifikovana podela kako bi odnos\n",
+        "kategorija ostao priblizno jednak u oba skupa.\n",
+        "\n",
+        "Za ekstrakciju tekstualnih karakteristika\n",
+        "koriscen je TF-IDF Vectorizer.\n",
+        "\n",
+        "Podesavanja:\n",
+        "- max_features = 10000\n",
+        "- ngram_range = (1, 2)\n",
+        "- min_df = 2\n",
+        "- sublinear_tf = True\n",
+        "\n",
+        "TF-IDF je prilagodjen iskljucivo trening skupu,\n",
+        "cime je spreceno curenje informacija iz test skupa.\n",
+        "\n",
+        "Ovaj pristup predstavlja pocetno resenje.\n",
+        "Kasnije cemo uporediti i druge nacine\n",
+        "vektorizacije teksta.\n"
+      ],
+      "metadata": {
+        "id": "lN5V-vmboxEr"
+      },
+      "id": "lN5V-vmboxEr"
     }
   ],
   "metadata": {
