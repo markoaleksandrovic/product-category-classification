@@ -110,7 +110,6 @@ Install dependencies:
 
     python -m pip install -r requirements.txt
 
-Replace YOUR_USERNAME with your actual GitHub username.
 
 ## Training the Model
 
